@@ -1,21 +1,21 @@
-# Project 3: Spots
+## Spots
 
-### Overview  
+This is the third project of the Software Engineering program at TripleTen, the Spots site. This site is designed for different users to create and edit their profiles while uploading images and small titles for their "spots". 
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+This project highlights the mastery of HTML and CSS concepts, while utilizing Figma as our project overview. Another highlight of this project was adaptive web design, where the focus was making sure the site worked on different browsers ranging from 320px to greater than 1440px width.  
+
+## Project Features
+- Semantic HTML5
+- Flexbox
+- Positioning
+- Grid layout
+- Buttons
+- Responsive web design with media queries for different screen widths
+- Flat BEM file structure
+![se_project_spots Spots-Readme](/images/desktop_view_readme.jpg)
+![se_project_spots Spots-Readme](/images/tablet_view_readme.jpg)
+![se_project_spots Spots-Readme](/images/mobile_view_readme.jpg)
+
+## Plan on improving the project
+Future implementations could be focused on user-friendly animations and different themes for users. Another useful feature could be drop-down areas under each image/card for more user-inputted text area. 
+
