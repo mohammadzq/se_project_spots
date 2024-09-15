@@ -1,4 +1,4 @@
-## Spots
+# Spots
 https://drive.google.com/file/d/1qqYncOZ-_Pcr5X4FqI9woItpRwEmZ0LF/view?usp=drive_link
 
 This is the third project of the Software Engineering program at TripleTen, the Spots site. This site is designed for different users to create and edit their profiles while uploading images and small titles for their "Spots". 
@@ -19,4 +19,5 @@ This project highlights the mastery of HTML and CSS concepts, while utilizing Fi
 
 ## Plan on improving the project
 Future implementations could be focused on user-friendly animations and different themes for users. Another useful feature could be drop-down areas under each image/card for more user-inputted text area. 
+
 
