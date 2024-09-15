@@ -54,8 +54,9 @@
   gap: 8px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 16x;
+  font-size: 16px;
   line-height: 16px;
+  opacity: 70%;
 }
 
 .profile__add {
@@ -73,7 +74,7 @@
   gap: 8px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 16x;
+  font-size: 16px;
   line-height: 16px;
 }
 
