@@ -20,4 +20,7 @@ This project highlights the mastery of HTML and CSS concepts, while utilizing Fi
 ## Plan on improving the project
 Future implementations could be focused on user-friendly animations and different themes for users. Another useful feature could be drop-down areas under each image/card for more user-inputted text area. 
 
-
+## Deployment 
+This webpage is deployed to GitHub Pages
+-Deployment Link: 
+https://mohammadzq.github.io/se_project_spots/
