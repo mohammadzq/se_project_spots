@@ -62,7 +62,7 @@
 }
 
 .profile__edit:hover {
-  cursor: url(../images/Cursor.png), pointer;
+  cursor: pointer;
 }
 
 .profile__add {
@@ -86,9 +86,8 @@
 }
 
 .profile__add:hover {
-  cursor: url(../images/Cursor.png), pointer;
+  cursor: pointer;
 }
-
 
 @media screen and (max-width: 627px) {
   .profile {

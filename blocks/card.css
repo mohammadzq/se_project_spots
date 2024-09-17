@@ -37,11 +37,11 @@
   padding: 0;
   width: 23px;
   height: 20px;
-  opacity: 40px;
+  opacity: 40%;
 }
 
 .card__like:hover {
-  cursor: url(../images/Cursor.png), pointer;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
