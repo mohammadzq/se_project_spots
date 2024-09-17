@@ -38,10 +38,12 @@
   width: 23px;
   height: 20px;
   opacity: 40%;
+  transition: ease-in-out 0.5s;
 }
 
 .card__like:hover {
   cursor: pointer;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {
