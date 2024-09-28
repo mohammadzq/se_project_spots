@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spots</title>
-    <meta name="description" content="Spots Webpage, a place to share your recent Spots with the world." />
-    <meta name="keywords" content="Spots, photos, sharing, friends, gallery, recommendations, global, " />
+    <meta
+      name="description"
+      content="Spots Webpage, a place to share your recent Spots with the world."
+    />
+    <meta
+      name="keywords"
+      content="Spots, photos, sharing, friends, gallery, recommendations, global, "
+    />
     <meta name="author" content="Mohammad Qureshi" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
@@ -26,7 +32,7 @@
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
             <button class="profile__edit" type="button">
-            <img src="./images/edit_button.svg" alt="edit profile logo" />Edit
+              <img src="./images/edit_button.svg" alt="edit profile logo" />Edit
               Profile
             </button>
           </div>
@@ -123,7 +129,38 @@
       <footer class="page__content footer">
         <p class="footer__copyright">2024 © Spots</p>
       </footer>
+      <div class="modal modal__opened">
+        <div class="modal__container">
+          <div class="modal__container-heading">
+            <h2 class="modal__title">Edit profile</h2>
+            <button type="submit" class="modal__close">
+              <img src="./images/close.svg" alt="Close button" />
+            </button>
+          </div>
+          <form name="edit-profile" class="modal__form">
+            <label for="name" class="modal__label">
+              Name
+              <input
+                id="name"
+                type="text"
+                class="modal__input"
+                placeholder="Type your name"
+              />
+            </label>
+            <label for="description" class="modal__label">
+              Description
+              <input
+                id="description"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <script defer ="./scripts/index.js"> </script>
+    <script defer="./scripts/index.js"></script>
   </body>
 </html>
