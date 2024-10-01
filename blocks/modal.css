@@ -17,6 +17,11 @@
   visibility: visible;
 }
 
+.modal_transition {
+  transition: ease-out 0.75s;
+  opacity: 0%;
+}
+
 .modal__container {
   background-color: #fff;
   max-width: 730px;
@@ -51,6 +56,7 @@
   transition: ease-in-out 0.5s;
 }
 
+
 .modal__close:hover {
   opacity: 100%;
   cursor: pointer;
@@ -78,7 +84,8 @@
   box-sizing: border-box;
   margin: 8px 0 32px 0;
   border-radius: 8px;
-  transition: ease-in-out 0.15s;
+  transition: ease-in 0.05s;
+
 }
 
 .modal__input:hover {
