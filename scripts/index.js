@@ -26,7 +26,7 @@ const initialCards = [
 ];
 
 const modalEdit = document.querySelector("#edit-profile-modal");
-const formEditModal = modalEdit.querySelector(".modal__form");
+const profileForm = modalEdit.querySelector(".modal__form");
 const profileName = document.querySelector(".profile__name");
 const profileDescription = document.querySelector(".profile__description");
 
@@ -66,7 +66,7 @@ function closeModal() {
   modalEdit.classList.add("modal_transition");
 }
 
-function submitFormModal(evt) {
+function handleProfileFormSubmit(evt) {
   evt.preventDefault();
   profileName.textContent = profileNameInput.value;
   profileDescription.textContent = profileDescriptionInput.value;
@@ -75,7 +75,7 @@ function submitFormModal(evt) {
 
 profileEditButton.addEventListener("click", openModal);
 profileCloseButton.addEventListener("click", closeModal);
-formEditModal.addEventListener("submit", submitFormModal);
+profileForm.addEventListener("submit", handleProfileFormSubmit);
 
 for (let i = 0; i < initialCards.length; i++) {
   const cardElement = getCardElement(initialCards[i]);
